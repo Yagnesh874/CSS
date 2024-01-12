@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            height: 3000px;
+            scroll-behavior: smooth;
+
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            /* height: 500px; */
+            /* width: 500px; */
+            border: 2px solid black;
+            border-radius: 21px;
+            background-color: cadetblue;
+            /* overflow: scroll; */
+        }
+
+        .form input {
+            border-radius: 21px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form">
+            <form action="/action_page.php">
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" placeholder="Enter first name"><br><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" placeholder="Enter last name"><br><br>
+                <label for="mnumber">Mobile number:</label><br>
+                <input type="number" id="mnumber" placeholder="Enter Mobile number"><br><br>
+                <input type="checkbox">
+                <input type="radio" id="html" name="fav language" value="html">
+                <label for="html"> HTML</label>
+                <input type="radio" name="fav language" id="CSS" value="CSS">
+                <label for="CSS">CSS</label>
+                <input type="radio" name="fav language" id="javscript" value="javascript">
+                <label for="javascript">JavaScript</label>
+                <!-- <input type="submit" value="Submit">  -->
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
